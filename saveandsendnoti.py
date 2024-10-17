@@ -4,7 +4,7 @@ import os
 import logging
 import time
 import uuid  # Import the uuid module
-#author Mya Pwint
+#author Mya Pwint myapwintcho@gmail.com
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
