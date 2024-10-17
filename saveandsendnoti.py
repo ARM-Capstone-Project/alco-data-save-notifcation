@@ -8,7 +8,6 @@ import uuid  # Import the uuid module
 # Initialize logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
-
 # Initialize DynamoDB and SNS clients
 dynamodb = boto3.resource('dynamodb')
 sns_client = boto3.client('sns')
